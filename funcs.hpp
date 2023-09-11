@@ -2,6 +2,9 @@
 #define FUNCS_HPP
 #pragma region Includes
 #include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
 #using namespace std;
 #pragma endregion
 
