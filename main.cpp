@@ -5,5 +5,5 @@
 
 int main()
 {
-
+DLL dll;
 }
