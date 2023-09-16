@@ -3,7 +3,7 @@
 #include <sstream>
 #include <string>
 
-#using namespace std;
+using namespace std;
 
 #ifndef _DLLNode
 #define _DLLNode
@@ -26,7 +26,7 @@ private:
     Node *head;                             // Pointer to the first node in the list
     Node *tail;                             // Pointer to the last node in the list
     int size;                               // The number of nodes in the list
-    bool dumbCounter;                       // Counter for the doStuff function
+    bool isSame;                       // Counter for the doStuff function
 
 public:
     DLL(); 
@@ -38,7 +38,6 @@ public:
     int size();
     Node *getHead();
     Node *getTail();
-    bool isEmpty();
     void doStuff();
 
 };
