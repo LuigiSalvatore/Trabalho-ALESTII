@@ -8,5 +8,4 @@
 using namespace std;
 #pragma endregion
 
-
 #endif // FUNCS_HPP
